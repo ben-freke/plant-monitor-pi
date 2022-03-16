@@ -1,0 +1,9 @@
+aws_iot_endpoint = endpoint.iot.eu-west-2.amazonaws.com
+client_id = PlantSensor
+certificate_path = certs/certificate.pem.crt
+private_key_path = certs/private.pem.key
+root_ca_path = certs/root-ca.pem
+parent_topic = plants/
+update_frequency = 60
+moisture_max = 1313
+moisture_min = 942

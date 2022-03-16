@@ -1,0 +1,9 @@
+[Unit]
+Description=Monitors the environment Sensor and uploads data to AWS IoT.
+After=multi-user.target
+[Service]
+Type=simple
+Restart=always
+ExecStart=/usr/bin/python3 /opt/bgfsensormon/sensor.py /opt/bgfsensormon/sensor_config.txt
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,2 @@
+awscrt~=0.13.5
+awsiotsdk~=1.9.3
