@@ -4,6 +4,6 @@ After=multi-user.target
 [Service]
 Type=simple
 Restart=always
-ExecStart=/usr/bin/python3 /opt/bgfsensormon/sensor.py /opt/bgfsensormon/sensor_config.txt
+ExecStart=/usr/bin/python3 /opt/bgfsensormon/main.py /opt/bgfsensormon/sensor_config.txt
 [Install]
 WantedBy=multi-user.target
